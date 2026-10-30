@@ -1,0 +1,8 @@
+{
+  "name": "Remix TravelVerse",
+  "description": "A premium, modern interactive travel planning web application. Discover destinations, build day-by-day itineraries, track budgets, and explore interactive travel maps.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

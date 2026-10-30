@@ -1,0 +1,9 @@
+﻿:root { --ease-out: cubic-bezier(0.22, 1, 0.36, 1); --dur-fast: 180ms; --dur-base: 320ms; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
+a, button, [role="button"], input, select, textarea {
+  transition: color var(--dur-fast) var(--ease-out), background-color var(--dur-fast) var(--ease-out), border-color var(--dur-fast) var(--ease-out), box-shadow var(--dur-base) var(--ease-out), transform var(--dur-fast) var(--ease-out), opacity var(--dur-fast) var(--ease-out);
+}
+.lift { transition: transform var(--dur-base) var(--ease-out), box-shadow var(--dur-base) var(--ease-out); }
+.lift:hover { transform: translateY(-4px); box-shadow: 0 18px 40px -18px rgba(11, 19, 32, 0.45); }
